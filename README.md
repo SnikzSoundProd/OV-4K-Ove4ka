@@ -47,12 +47,12 @@ A new experimental Architecture that, in theory, could be better than convention
 
 **1. Компиляция (Turbo Mode):**
 ```cmd
-nvcc -O3 -arch=sm_61 -std=c++17 -allow-unsupported-compiler -o dga_transformer dga_transformer_v3_safe.cu -lcublas -Xcompiler "/D_ALLOW_COMPILER_AND_STL_VERSION_MISMATCH /MP"
+nvcc -O3 -arch=sm_61 -std=c++17 -allow-unsupported-compiler -o dga_transformer Ove4k_dga.cu -lcublas -Xcompiler "/D_ALLOW_COMPILER_AND_STL_VERSION_MISMATCH /MP"
 ```
 
 **2. Pre-training (Учим базу языка):**
 ```cmd
-.\dga_transformer train mega_dataset.txt model_base.bin 5
+.\dga_transformer train mega.txt model_base.bin 5
 ```
 *(Токенизатор умно соберет словарь по сэмплу за 30 сек и закэширует его в `vocab.bin`)*
 

@@ -58,7 +58,7 @@ nvcc -O3 -arch=sm_61 -std=c++17 -allow-unsupported-compiler -o dga_transformer d
 
 **3. Finetuning (Дообучаем на диалоги):**
 ```cmd
-.\dga_transformer finetune dialogues.txt model_base.bin bot_final.bin 3
+.\dga_transformer finetune train_mix_v10.txt model_base.bin bot_final.bin 3
 ```
 
 **4. Запуск чата:**
@@ -77,3 +77,5 @@ nvcc -O3 -arch=sm_61 -std=c++17 -allow-unsupported-compiler -o dga_transformer d
 
 *(P.S. *Хоть я и не обещаю)*
 ```
+
+And attention !!! - This is early research prototype(MVP) with basic logic and functions. Whenever i khow about something issues and possibly bottlenecks.

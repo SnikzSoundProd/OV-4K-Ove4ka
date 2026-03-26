@@ -1,7 +1,5 @@
-# OV-4K-Ove4ka
-A new experimental Architecture that, in theory, could be better than conventional transformers
-
 # 🐑 OV-4K DGAv3: The "Ove4ka" Model 
+A new experimental Architecture that, in theory, could be better than conventional transformers
 
        __  _
    .-.'  `; `-._  __  _

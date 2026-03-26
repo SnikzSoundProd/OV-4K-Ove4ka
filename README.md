@@ -1,16 +1,6 @@
 # 🐑 OV-4K DGAv3: The "Ove4ka" Model 
 A new experimental Architecture that, in theory, could be better than conventional transformers
 
-       __  _
-   .-.'  `; `-._  __  _
-  (_,         .-:'  `; `-._
-,'o"(        (_,           )
-(__,-'      ,'o"(            )>
-   (       (__,-'            )
-    `-'._.--._(             )
-       |||  |||`-'._.--._.-'
-                  |||  |||
-
     OV-4K DGAv3 | 20.3M params
     "я овечк. без а. я ещё расту."
     
